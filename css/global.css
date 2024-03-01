@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
   /* border: 1px dotted lightgrey; */
 }
 body {
@@ -23,6 +24,7 @@ li {
   padding: 0 5.625rem;
   background-color: #ffffff;
   position: fixed;
+  top: 0;
   width: 100%;
   height: 3.4375rem;
 }
@@ -33,9 +35,6 @@ li {
   font-weight: bold;
 }
 
-.main-nav {
-}
-
 .main-nav__list {
   display: flex;
 }
@@ -44,7 +43,7 @@ li {
   display: inline-block;
   padding: 0.5rem 0;
   margin-left: 1.25rem;
-  color: #335576;
+  color: black;
 }
 
 .main-nav__link--active {
