@@ -1,0 +1,33 @@
+.hero-banner {
+  background-color: #fefaf5;
+  margin-top: 3.4375rem;
+  height: 30rem;
+  padding: 0 5.625rem;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-banner__left {
+  width: 34.6875rem;
+  color: #335576;
+}
+.hero-banner__title {
+  font-size: 2.125rem;
+  margin-bottom: 2rem;
+  margin-top: 6.25rem;
+}
+
+.hero-banner__text {
+  font-size: 0.75rem;
+}
+.hero-banner__link {
+  display: inline-block;
+  background-color: #db7a4e;
+  color: white;
+  padding: 0.5rem 2.75rem;
+  border-radius: 1.375rem;
+  margin-top: 1rem;
+}
+.hero-banner__right {
+  width: 27.0625rem;
+  background: center / contain no-repeat url("../assets/images/hero.png");
+}
