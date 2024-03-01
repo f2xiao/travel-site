@@ -19,15 +19,16 @@ li {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 0 4.5rem;
+  align-items: center;
+  padding: 0 5.625rem;
   background-color: #ffffff;
   position: fixed;
   width: 100%;
+  height: 3.4375rem;
 }
 
 .site-header__logo {
   display: inline-block;
-  padding: 1.125rem;
   color: #335576;
   font-weight: bold;
 }
@@ -37,13 +38,13 @@ li {
 
 .main-nav__list {
   display: flex;
-  padding: 0.5rem;
 }
 
 .main-nav__link {
   display: inline-block;
-  padding: 0.625rem 0;
-  margin: 0 0.5rem;
+  padding: 0.5rem 0;
+  margin-left: 1.25rem;
+  color: #335576;
 }
 
 .main-nav__link--active {
