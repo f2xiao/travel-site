@@ -39,10 +39,12 @@
 
 .card-list--destination {
   padding: 1.875rem 8.125rem 4.375rem;
+  gap: 36px;
 }
 
 .card--destination {
   position: relative;
+  flex-basis: 255px;
 }
 
 .card__image {

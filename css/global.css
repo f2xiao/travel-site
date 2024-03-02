@@ -56,6 +56,11 @@ address {
   padding: 0 5.625rem;
 }
 
+.site-main {
+  display: flex;
+  justify-content: center;
+}
+
 .site-footer {
   background: #fefaf5;
 }
@@ -108,10 +113,12 @@ address {
 .card-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card {
   display: block;
-  width: 15.9375rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
