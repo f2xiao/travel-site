@@ -9,6 +9,7 @@ body {
 }
 a {
   text-decoration: none;
+  display: inline-block;
 }
 ul,
 li {
@@ -23,7 +24,6 @@ address {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5.625rem;
   background-color: #ffffff;
   position: fixed;
   top: 0;
@@ -32,7 +32,6 @@ address {
 }
 
 .site-header__logo {
-  display: inline-block;
   color: #335576;
   font-weight: bold;
 }
@@ -42,7 +41,6 @@ address {
 }
 
 .main-nav__link {
-  display: inline-block;
   padding: 0.5rem 0;
   margin-left: 1.25rem;
   color: black;
@@ -50,4 +48,69 @@ address {
 
 .main-nav__link--active {
   border-bottom: 0.125rem solid #db7a4e;
+}
+
+.site-header,
+.hero-banner,
+.site-main,
+.site-footer {
+  padding: 0 5.625rem;
+}
+
+.site-footer {
+  background: #fefaf5;
+}
+
+.footer-list {
+  padding: 2.75rem 8.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-item--big {
+  height: 5.3125rem;
+}
+.footer-item--small {
+  height: 2.5rem;
+}
+.footer-item--row {
+  flex-direction: row;
+}
+.footer-item__title {
+  color: #335576;
+}
+.footer-item__subtitle {
+  color: #db7a4e;
+  font-size: 0.625rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.footer-item__text {
+  color: #335576;
+  font-size: 0.875rem;
+}
+
+.footer-item--hours {
+  width: 24.1875rem;
+}
+.footer-item--social {
+  width: 7.8125rem;
+}
+
+.footer-item__icon {
+  height: 1.5625rem;
+}
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  display: block;
+  width: 15.9375rem;
 }
