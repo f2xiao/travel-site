@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px dotted lightgrey; */
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,6 +28,7 @@ address {
   top: 0;
   width: 100%;
   height: 3.4375rem;
+  z-index: 1;
 }
 
 .site-header__logo {
@@ -69,11 +69,13 @@ address {
   padding: 2.75rem 8.125rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .footer-item--big {
