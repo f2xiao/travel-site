@@ -29,7 +29,9 @@
   width: 27.0625rem;
   background: center / contain no-repeat url("../assets/images/hero.png");
 }
-
+.recommendations {
+  padding: 0 5.625rem;
+}
 .recommendations__title {
   padding-top: 2.5rem;
   color: #335576;
@@ -46,9 +48,8 @@
 .card__image {
   display: inline-block;
   width: 100%;
-  border-radius: 5px;
+  height: 100%;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .card__title {
   color: white;
