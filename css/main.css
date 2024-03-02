@@ -1,13 +1,14 @@
 .hero-banner {
   background-color: #fefaf5;
   margin-top: 3.4375rem;
-  height: 30rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .hero-banner__left {
   width: 34.6875rem;
   color: #335576;
+  /* flex-grow: 0; */
 }
 .hero-banner__title {
   font-size: 2.125rem;
@@ -16,7 +17,7 @@
 }
 
 .hero-banner__text {
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
 }
 .hero-banner__link {
   background-color: #db7a4e;
@@ -27,6 +28,8 @@
 }
 .hero-banner__right {
   width: 27.0625rem;
+  height: 30rem;
+  flex-shrink: 0;
   background: center / contain no-repeat url("../assets/images/hero.png");
 }
 .recommendations {
